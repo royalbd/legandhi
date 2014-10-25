@@ -46,17 +46,17 @@
       <div class="header-logo"> 
         <!-- <h1><a href="index.php">Le-Gandhi</a></h1> --> 
         <a href="index.html" tppabs="Royal Technology/index.html"><img src="images/header-logo-test.png" tppabs="Royal Technology/images/header-logo.png" alt="" /></a> </div>
-     
-        <div id="cart" class="cart-details" style=" position:fixed; top:25px;left:69%; z-index:15; ">
-          <div class="main-title" style="background-color:yellow !important;">
-            <p style=" color:midnightblue;  padding:15px; font-size:16px;"> <span>Cart Total: $<strong><span id="cart_total" style="color:purple;">0.00 </span> <input id="cart_tot" type="hidden" value="0"></strong></span> <a href="" style="text-decoration:underline; font-weight:bold; color:red; border-radius:12px; background-color:transparent; padding:5px; font-size:16px;" > Place Order </a> </p>
-            <div class="ribbon-tail" >
-              <div class="inner-top" style="background-color:yellow !important;"></div>
-              <div class="inner-bottom" style="background-color:yellow !important;"></div>
-            </div>
+      <div id="cart" class="cart-details" style=" position:fixed; top:25px;left:69%; z-index:15; ">
+        <div class="main-title" style="background-color:yellow !important;">
+          <p style=" color:midnightblue;  padding:15px; font-size:16px;"> <span>Cart Total: $<strong><span id="cart_total" style="color:purple;">0.00 </span>
+            <input id="cart_tot" type="hidden" value="0">
+            </strong></span> <a href="" style="text-decoration:underline; font-weight:bold; color:red; border-radius:12px; background-color:transparent; padding:5px; font-size:16px;" > Place Order </a> </p>
+          <div class="ribbon-tail" >
+            <div class="inner-top" style="background-color:yellow !important;"></div>
+            <div class="inner-bottom" style="background-color:yellow !important;"></div>
           </div>
         </div>
-     
+      </div>
       
       <!-- END .wrapper --> 
     </div>
@@ -102,10 +102,16 @@
     <!-- BEGIN .wrapper -->
     <div class="wrapper">
       <div id="layerslider">
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/test/24.jpg" alt="layer"> <!--<img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> --></div>
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/test/34.jpg" alt="layer"> <!--<img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack">--> </div>
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/test/25.jpg" alt="layer"><!-- <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 75px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 195px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> --></div>
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/test/29.jpg" alt="layer"> <!--<img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> --></div>
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/test/30.jpg" alt="layer"> <!--<img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> --></div>
+        
+        <!--     <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/slide-1-bg.jpg" alt="layer"> <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 75px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 195px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> </div>
         <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/slide-1-bg.jpg" alt="layer"> <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> </div>
-       <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/slide-1-bg.jpg" alt="layer"> <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> </div>
-       <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/slide-1-bg.jpg" alt="layer"> <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> </div>
-       
+        <div class="ls-layer" rel="slidedelay: 3000;"> <img class="ls-bg" src="images/parallax-slider/slide-1-bg.jpg" alt="layer"> <img id="table1" style="left: 0; top: 0;" class="ls-s2" src="images/parallax-slider/slide-1-table.png" alt="sublayer" rel="slidedirection: left"> <img id="plate2" style="left: 610px; top: 60px;" class="ls-s3" src="images/parallax-slider/slide-1-plate-2.png" alt="sublayer" rel="slidedirection: left"> <img id="plate1" style="left: 40px; top: 55px;" class="ls-s4" src="images/parallax-slider/slide-1-plate-1.png" alt="sublayer" rel="slidedirection: right"> <img id="tomato1" style="left: 656px; top: 175px;" class="ls-s5" src="images/parallax-slider/slide-1-tomato-1.png" alt="sublayer" rel="slidedirection: bottom"> <img id="leaf1" style="left: 95px; top: 160px;" class="ls-s6" src="images/parallax-slider/slide-1-leaf-1.png" alt="sublayer" rel="slidedirection: top"> <img id="title1" style="left: 40px; top: 180px;" class="ls-s7" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 500; easingin: easeOutBack"> <img id="title2" style="left: 40px; top: 237px;" class="ls-s8" src="images/parallax-slider/title-1.png" alt="sublayer" rel="delayin: 700; easingin: easeOutBack"> </div>--> 
+        
       </div>
       
       <!-- END .wrapper --> 
@@ -118,202 +124,195 @@
   <div class="content"> 
     
     <!-- BEGIN .wrapper -->
+    
+   
     <div class="wrapper">
-      <div class="group tripple-icons">
-        <div class="col span_1_of_3">
-          <div class="triple-text" style="background-image: url(images/ico-pizza-1.png)/*tpa=Royal Technology/images/ico-pizza-1.png*/;">
-            <h3>Fantastic Pizzas</h3>
+      <div class="content-white"> 
+        
+         
+        <!-- BEGIN .main-content -->
+        <div class="main-content" style="position:initial !important;">
+        
+          <div class="main-head menu-card-title">
+            <div class="main-title">
+              <h1>Our Most Popular Menu Offerings</h1>
+              <div class="ribbon-tail">
+                <div class="inner-top"></div>
+                <div class="inner-bottom"></div>
+              </div>
+              <div class="ribbon-tail left">
+                <div class="inner-top"></div>
+                <div class="inner-bottom"></div>
+              </div>
+            </div>
           </div>
-          <p>Quisque eleifend mi at nisl pretium non dignissim felis euismod. Nullam sagittis In teger tortor et eiaculis dapibus amet dignissim.</p>
-          <a href="##" class="more-link"><i>Read more</i></a> </div>
-        <div class="col span_1_of_3">
-          <div class="triple-text" style="background-image: url(images/ico-coffee-1.png)/*tpa=Royal Technology/images/ico-coffee-1.png*/;">
-            <h3>Amazing Coffee</h3>
-          </div>
-          <p>Integer ac dapibus amet velit. Suspendisse sit amet orci augue, imperdiet amet blandit enim. Duis nec mi sapien. Quisque ante sque.</p>
-          <a href="##" class="more-link"><i>Read more</i></a> </div>
-        <div class="col span_1_of_3">
-          <div class="triple-text" style="background-image: url(images/ico-salads-1.png)/*tpa=Royal Technology/images/ico-salads-1.png*/;">
-            <h3>Great Salads</h3>
-          </div>
-          <p>Nullam diam nisl, condi in eleifend sit amet, interdum vel quam. Curabitur laoreet viverra eleifend. Vivamus viverra justo eu neque.</p>
-          <a href="##" class="more-link"><i>Read more</i></a> </div>
-      </div>
-      <div class="split-content">
-        <div class="content-white left">
-          <div class="main-content">
-            <div class="main-head"> <a href="#menu-card.html" tppabs="Royal Technology/menu-card.html" class="right">show menu card</a>
-              <div class="main-title">
-                <h1>Most popular menu offerings</h1>
-                <div class="ribbon">
-                  <div class="inner"></div>
+          
+          
+          <div class="menu-card-count"> 
+            
+            <!-- BEGIN .menu-card-left -->
+            <div class="menu-card-left">
+              <div class="menu-card-block">
+                <div class="menu-card-item">
+                  <div style="width:100%; height:300px;border: 1px solid burlywood; padding-left: 7px; padding-top:7px; border-radius: 5px; background:whitesmoke;">
+                    <h2 class="title-red">Bhuna Homard</h2>
+                    <div style="width:70%; float:left;"> <img src="images/home-img/main-body-bg.jpg" width="100%" height="178" style="border-radius:5px;" > </div>
+                    <div style="width:29%; float:right;">
+                      <h4 ><a>le homard Bhuna assez pour mange </a> </h4>
+                    </div>
+                    <div style="width:100%; float:left;">
+                      <h3 >Regular Prize : $50<br />
+                        Special Prize : $40(10am-5pm)<br />
+                        <p style="text-align:right; margin-right:25px;"><a class="more-link" onclick="add_to_total('50')"><i>Add To Cart<span>&nbsp;</span></i><span>&nbsp;</span></a></p>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="ribbon-tail">
-                  <div class="inner-top"></div>
-                  <div class="inner-bottom"></div>
+                <div class="menu-card-item">
+                  <div style="width:100%; height:300px;border: 1px solid burlywood; padding-left: 7px; padding-top:7px; border-radius: 5px; background:peachpuff;">
+                    <h2 class="title-red">Pain tundura</h2>
+                    <div style="width:70%; float:left;"> <img src="images/home-img/0383a3_83ed2e757f884be0a44979bf9d79de0f.jpg_srz_p_270_178_75_22_0.50_1.20_0.00_jpg_srz.jpg" width="100%" height="178" style="border-radius:5px;" > </div>
+                    <div style="width:29%; float:right;">
+                      <h4 ><a>Pain tunduraPain tunduraPain tunduraPain tunduraPain tundura</a> </h4>
+                    </div>
+                    <div style="width:100%; float:left;">
+                      <h3 >Regular Prize : $50<br />
+                        Special Prize : $40(10am-5pm)<br />
+                        <p style="text-align:right; margin-right:25px;"><a class="more-link" onclick="add_to_total('50')"><i>Add To Cart<span>&nbsp;</span></i><span>&nbsp;</span></a></p>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <p class="caps">Sllam sagittis tortor et enim egestas iaculis. Duis tincidunt dolor et risus accumsan nec sagittis nunc con sequat. Integer erat sem, euismod eget elementum eu, faucibus at felis. Donec a turpis velit. Ut a elementum lorem. Curabitur id tortor nunc. Vestibulum eu massa risus. Nulla facilisi. Integer gravida ultricies iaculis. Integer dictum facilisis rutrum. Phasellus luctus congue neque, sed convallis mi bibendum.</p>
-            <div class="main-spacer"></div>
-            <div class="menu-display-1-wrapper">
-              <div class="menu-display-1">
-                <div class="item">
-                  <h5>Italian pasta Italian pasta</h5>
-                  <a href="#javascript:if(confirm(%27Royal Technology/menu-card-single.html  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27Royal Technology/menu-card-single.html%27" tppabs="Royal Technology/menu-card-single.html" class="image"> <span class="price">$4,99<span>&nbsp;</span></span> <img src="images/photos/image-6.jpg" tppabs="Royal Technology/images/photos/image-6.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('4.99')" class="more-link"><i>Add To Cart</i></a></p>
+            
+            <!-- END .menu-card-left --> 
+            
+            <!-- BEGIN .menu-card-right -->
+            <div class="menu-card-right">
+              <div class="menu-card-block">
+                <div class="menu-card-item">
+                  <div style="width:100%; height:300px;border: 1px solid burlywood; padding-left: 7px; padding-top:7px; border-radius: 5px; background:papayawhip;">
+                    <h2 class="title-red">Poissons et pommes de terre sautées</h2>
+                    <div style="width:70%; float:left;"> <img  src="images/home-img/0383a3_98ac7272c3b14499b3fc5b49f3f945df.jpg_srz_p_270_244_75_22_0.50_1.20_0.00_jpg_srz.jpg" width="100%" height="178" style="border-radius:5px;" > </div>
+                    <div style="width:29%; float:right;">
+                      <h4 ><a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a> </h4>
+                    </div>
+                    <div style="width:100%; float:left;">
+                      <h3 >Regular Prize : $50<br />
+                        Special Prize : $40(10am-5pm)<br />
+                        <p style="text-align:right; margin-right:25px;"><a class="more-link" onclick="add_to_total('50')"><i>Add To Cart<span>&nbsp;</span></i><span>&nbsp;</span></a></p>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="item">
-                  <h5>Baked meat</h5>
-                  <a class="image"> <span class="price">$8,99<span>&nbsp;</span></span> <img src="images/photos/image-7.jpg" tppabs="Royal Technology/images/photos/image-7.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('8.99')" class="more-link"><i>Add To Cart</i></a></p>
-                </div>
-                <div class="item">
-                  <h5>Split pea soup</h5>
-                  <a  class="image"> <span class="price">$2,99<span>&nbsp;</span></span> <img src="images/photos/image-8.jpg" tppabs="Royal Technology/images/photos/image-8.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('2.99')" class="more-link"><i>Add To Cart</i></a></p>
-                </div>
-                <div class="item">
-                  <h5>Caesar salad</h5>
-                  <a class="image"> <span class="price">$4,99<span>&nbsp;</span></span> <img src="images/photos/image-9.jpg" tppabs="Royal Technology/images/photos/image-9.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('4.99')" class="more-link"><i>Add To Cart</i></a></p>
-                </div>
-                <div class="item">
-                  <h5>Chinese chicken</h5>
-                  <a class="image"> <span class="price">$15,50<span>&nbsp;</span></span> <img src="images/photos/image-10.jpg" tppabs="Royal Technology/images/photos/image-10.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('15.50')" class="more-link"><i>Add To Cart</i></a></p>
-                </div>
-                <div class="item">
-                  <h5>American apple pie</h5>
-                  <a href="#" class="image"> <span class="price">$2,99<span>&nbsp;</span></span> <img src="images/photos/image-11.jpg" tppabs="Royal Technology/images/photos/image-11.jpg" alt="" /> </a>
-                  <p>Duis tincidunt dolor et risus accumsan nec sagittquat. Integer erat sem, euismod eget.</p>
-                  <p><a href="###" onClick="add_to_total('2.99')" class="more-link"><i>Add To Cart</i></a></p>
-                </div>
-                <div class="clear-float"></div>
-              </div>
-            </div>
-            <div class="main-spacer"></div>
-            <p class="show-all"><a href="#menu-card.html" tppabs="Royal Technology/menu-card.html"><span>Show entire menu card</span></a></p>
-            <p class="back-top"><a href="##top"><span>go back to the top</span></a></p>
-          </div>
-        </div>
-        <div class="content-white small right">
-          <div class="main-content">
-            <div class="main-head"> <a href="#blog.html" tppabs="Royal Technology/blog.html" class="right">show all</a>
-              <div class="main-title">
-                <h1>Events</h1>
-                <div class="ribbon">
-                  <div class="inner"></div>
-                </div>
-                <div class="ribbon-tail">
-                  <div class="inner-top"></div>
-                  <div class="inner-bottom"></div>
+                <div class="menu-card-item">
+                  <div style="width:100%; height:300px;border: 1px solid burlywood; padding-left: 7px; padding-top:7px; border-radius: 5px;">
+                    <h2 class="title-red">Tehari</h2>
+                    <div style="width:70%; float:left;"> <img src="images/home-img/0383a3_38b14db9cccf4b0cae42dcc2bfaf9ca9.jpg_srz_p_282_179_75_22_0.50_1.20_0.00_jpg_srz.jpg" width="100%" height="178" style="border-radius:5px;" > </div>
+                    <div style="width:29%; float:right;">
+                      <h4 ><a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+                    </div>
+                    <div style="width:100%; float:left;">
+                      <h3 >Regular Prize : $50<br />
+                        Special Prize : $40(10am-5pm)<br />
+                        <p style="text-align:right; margin-right:25px;"><a class="more-link" onclick="add_to_total('50')"><i>Add To Cart<span>&nbsp;</span></i><span>&nbsp;</span></a></p>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="events">
-              <div class="item">
-                <h6>6 / 27 / 2011 &bull; 12:22 PM</h6>
-                <h5><a href="#post.html" tppabs="Royal Technology/post.html">Proin scelerisque porta ante</a></h5>
-                <p>Mauris donec rutrum justo nec nisl aliquam vestibulum. Fusce at leo</p>
-                <a href="#post.html" tppabs="Royal Technology/post.html" class="more-link"><i>Read more</i></a> </div>
-              <div class="item">
-                <h6>6 / 27 / 2011 &bull; 12:22 PM</h6>
-                <h5><a href="#post.html" tppabs="Royal Technology/post.html">Fusce at leo vitae massa volutpat pulvinar</a></h5>
-                <p>Mauris donec rutrum justo nec nisl aliquam vestibulum. Fusce at leo</p>
-                <a href="#post.html" tppabs="Royal Technology/post.html" class="more-link"><i>Read more</i></a> </div>
-              <div class="item">
-                <h6>6 / 27 / 2011 &bull; 12:22 PM</h6>
-                <h5><a href="#post.html" tppabs="Royal Technology/post.html">Ut leo mauris, viverra et viverra eget, rhoncus id nibh.</a></h5>
-                <p>Mauris donec rutrum justo nec nisl aliquam vestibulum. Fusce at leo</p>
-                <a href="#post.html" tppabs="Royal Technology/post.html" class="more-link"><i>Read more</i></a> </div>
-            </div>
-            <p class="show-all"><a href="#blog.html" tppabs="Royal Technology/blog.html"><span>Show all events</span></a></p>
-            <p class="back-top"><a href="##top"><span>go back to the top</span></a></p>
+            
+            <!-- END .menu-card-right --> 
           </div>
-        </div>
-        <div class="clear-float"></div>
-      </div>
-      
-      <!-- END .wrapper --> 
-    </div>
-    
-    <!-- END .content --> 
-  </div>
-  
-  <!-- BEGIN .footer -->
-  <div class="footer"> 
-    
-    <!-- BEGIN .wrapper -->
-    <div class="wrapper">
-      <div class="group">
-        <div class="col span_1_of_3 widget">
-          <div class="title">
-            <h3>Contact Information</h3>
-          </div>
-          <div class="contact-info">
-            <div class="address">
-              <p><b>"Le Gandhi"</b></p>
-              <p>Avenue de Lonay 13,
-                1110 Morges,
-                Switzerland (Restauraunt 'Le Gandhi' Café-Bar)
-                Rèservations conseillèes </p>
-            </div>
-            <div class="phone">
-              <p>021/8036775 </p>
-            </div>
-            <div class="email">
-              <p><a href="#mailto: azahar@windowslive.com"> azahar@windowslive.com</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col span_1_of_3 widget">
-          <div class="title">
-            <h3>Social Networks</h3>
-          </div>
-          <div class="widget-soc">
-            <ul>
-              <li class="twitter"><a href="##" tareget="_blank">Follow us on <b>Twitter</b></a></li>
-              <li class="facebook"><a href="https://www.facebook.com/royaltechnologybd" tareget="_blank">Find us on <b>Facebook</b></a></li>
-              <li class="linkedin"><a href="##" tareget="_blank">Check us out on <b>Linked In</b></a></li>
-              <li class="rss"><a href="##" tareget="_blank">Check out our <b>RSS feeds</b></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col span_1_of_3 widget">
-          <div class="title">
-            <h3>About Us</h3>
-          </div>
-          <div class="contact-map"> Loren Isrun </div>
+          <div class="clear-float"> </div>
+           <p class="back-top"><a href="#top"><span>go back to the top</span></a></p>
+          <!-- END .menu-card-count --> 
         </div>
       </div>
-      
-      <!-- END .wrapper --> 
+    </div>
+   
+    
+    <!-- END .main-content --> 
+  </div>
+  <div class="clear-float"></div>
+</div>
+
+<!-- END .wrapper -->
+</div>
+
+<!-- END .content -->
+</div>
+
+<!-- BEGIN .footer -->
+<div class="footer"> 
+  
+  <!-- BEGIN .wrapper -->
+  <div class="wrapper">
+    <div class="group">
+      <div class="col span_1_of_3 widget">
+        <div class="title">
+          <h3>Contact Information</h3>
+        </div>
+        <div class="contact-info">
+          <div class="address">
+            <p><b>"Le Gandhi"</b></p>
+            <p>Avenue de Lonay 13,
+              1110 Morges,
+              Switzerland (Restauraunt 'Le Gandhi' Café-Bar)
+              Rèservations conseillèes </p>
+          </div>
+          <div class="phone">
+            <p>021/8036775 </p>
+          </div>
+          <div class="email">
+            <p><a href="#mailto: azahar@windowslive.com"> azahar@windowslive.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col span_1_of_3 widget">
+        <div class="title">
+          <h3>Social Networks</h3>
+        </div>
+        <div class="widget-soc">
+          <ul>
+            <li class="twitter"><a href="##" tareget="_blank">Follow us on <b>Twitter</b></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/royaltechnologybd" tareget="_blank">Find us on <b>Facebook</b></a></li>
+            <li class="linkedin"><a href="##" tareget="_blank">Check us out on <b>Linked In</b></a></li>
+            <li class="rss"><a href="##" tareget="_blank">Check out our <b>RSS feeds</b></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col span_1_of_3 widget">
+        <div class="title">
+          <h3>About Us</h3>
+        </div>
+        <div class="contact-map"> Loren Isrun </div>
+      </div>
     </div>
     
-    <!-- END .footer --> 
+    <!-- END .wrapper --> 
   </div>
   
-  <!-- BEGIN .footer-desc -->
-  <div class="footer-desc"> 
+  <!-- END .footer --> 
+</div>
+
+<!-- BEGIN .footer-desc -->
+<div class="footer-desc"> 
+  
+  <!-- BEGIN .wrapper -->
+  <div class="wrapper">
+    <p class="right">Designed by <a href="http://royalbd.net" target="_blank">Royal Technology BD</a></p>
+    <p>Copyright &copy; 2012-14 <strong>http://royalbd.net</strong></p>
     
-    <!-- BEGIN .wrapper -->
-    <div class="wrapper">
-      <p class="right">Designed by <a href="http://royalbd.net" target="_blank">Royal Technology BD</a></p>
-      <p>Copyright &copy; 2012-14 <strong>http://royalbd.net</strong></p>
-      
-      <!-- END .wrapper --> 
-    </div>
-    
-    <!-- END .footer-desc --> 
+    <!-- END .wrapper --> 
   </div>
   
-  <!-- END .boxed --> 
+  <!-- END .footer-desc --> 
+</div>
+
+<!-- END .boxed -->
 </div>
 
 <!-- Scripts --> 
